@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    background-color: #141414;
+    padding: 1em;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 100px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    margin: 0 1em;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured {
+    text-align: center;
+    padding: 4em 0;
+    background: url('featured.jpg') no-repeat center center/cover;
+}
+
+.movie-rows {
+    padding: 2em;
+}
+
+.movie-rows .row {
+    margin-bottom: 2em;
+}
+
+.movie-rows .movies {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.movie-rows .movies img {
+    margin-right: 1em;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.movie-rows .movies img:hover {
+    transform: scale(1.1);
+}
