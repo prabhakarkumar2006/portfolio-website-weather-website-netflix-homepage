@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #e66465, #9198e5);
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+#search {
+    margin: 2em 0;
+}
+
+#weather {
+    margin: 2em 0;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input, button {
+    padding: 0.5em;
+    margin: 0.5em;
+}
